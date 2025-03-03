@@ -18,7 +18,7 @@ Rapid Compliance Checker is a real-time parcel compliance verification system de
 
 # Prerequisites
 - Node.js and npm installed
-
+- Mongo db compass.exe
 
 # Steps
 1. Clone the repository:
@@ -33,8 +33,8 @@ Rapid Compliance Checker is a real-time parcel compliance verification system de
    sh
    npm install
    
-4. Set up the database in XAMPP and configure connection in compliancechecker/db.js.
-5. Start the server:
+
+4. Start the server:
    sh
    npm start
    Nodemon server.js
